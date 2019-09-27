@@ -36,7 +36,7 @@ void loop(){
             Serial.print('\n');
             Serial.print(azimuth);
             Serial.print(',');
-            Serial.print(54-elevation);
+            Serial.print(90-(54-elevation));
             Serial.print(',');
             Serial.print(sensorAve);
             delay(500);
