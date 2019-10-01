@@ -56,6 +56,6 @@ void loop(){
             Serial.print(',');
             Serial.print(sensorAve);
             delay(500);
-
     }
+    Serial.close();
 }

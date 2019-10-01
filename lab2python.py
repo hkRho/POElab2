@@ -33,8 +33,8 @@ def live_plot():
     
     fig, ax = plt.subplots()
     ax.axis('equal')
-    plt.xlabel('x')
-    plt.ylabel('y')
+    plt.xlabel('Angle of azimuth/yaw')
+    plt.ylabel('Angle of elevation/pitch')
 
     x_array = []
     y_array = []

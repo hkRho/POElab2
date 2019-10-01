@@ -61,4 +61,5 @@ void loop(){
             delay(500);
         }
     }
+    Serial.close();
 }
